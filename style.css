@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Home Page */
+/* Announcement */
+.announcement {
+    display: flex;
+    justify-content: end;
+    background-color: #1e70b0;
+    padding: 8px;
+}
+
+.announcement a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12.5px;
+    margin-right: 30px;
+}
+
+.announcement a:hover {
+    color: red;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030; 
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.navbar-brand img {
+    width: 85px;
+}
+
+.navbar-brand a {
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+}
+
+.navbar-nav {
+    margin-right: 2rem;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item a {
+    font-size: 15px;
+    color: #000000;
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #e1140a;
+}
+
+.dropdown-menu {
+    padding: 10px 10px;
+    border-radius: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    margin: 5px 0 8px;
+    background-color: transparent; 
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: transparent; 
+}
+
+/* Landing Page */
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.landing-page img {
+    width: 1120px;
+}
+
+/* Products */ 
+
+.products {
+    margin: 35px 0;
+}
+
+.products .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .images {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+}
+
+.products img {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.products img:hover {
+    transform: scale(1.2);
+}
+
+.products .images .hp img {
+    width: 100px;
+}
+
+.products .images .asus img,
+.products .images .lenovo img,
+.products .images .acer img {
+    width: 150px;
+}
+
+.products .images .dell img,
+.products .images .huawei img,
+.products .images .huawei img,
+.products .images .aruba img,
+.products .images .tplink img,
+.products .images .apc img,
+.products .images .eaton img,
+.products .images .epson img,
+.products .images .brother img,
+.products .images .canon img,
+.products .images .fujitsu img,
+.products .images .zebra img,
+.products .images .jabra img,
+.products .images .poly img,
+.products .images .checkpoint img {
+    width: 160px;
+}
+
+.products .images .msi img,
+.products .images .adobe img,
+.products .images .hewlett img,
+.products .images .d-link img,
+.products .images .vertiv img,
+.products .images .delta img {
+    width: 180px;
+} 
+
+.products .images .apple img,
+.products .images .cisco img,
+.products .images .logitech img,
+.products .images .lg img,
+.products .images .trellix img,
+.products .images .ridge img {
+    width: 140px;
+}
+
+.products .images .microsoft img,
+.products .images .chargeups img,
+.products .images .datalogic img,
+.products .images .ncomputing img ,
+.products .images .autodesk img,
+.products .images .bricscad img,
+.products .images .zwcad img,
+.products .images .watchguard img {
+    width: 200px;
+}
+
+.products .images .lumion img {
+    width: 220px;
+}
+
+.products .images .samsung img,
+.products .images .kingston img,
+.products .images .seagate img,
+.products .images .westerndigital img,
+.products .images .hikvision img,
+.products .images .vmware img,
+.products .images .veamm img,
+.products .images .arcserve img,
+.products .images .nutanix img,
+.products .images .sonicwall img,
+.products .images .fortinet img,
+.products .images .sophos img,
+.products .images .filewave img,
+.products .images .skyhigh img,
+.products .images .paloalto img {
+    width: 180px;
+}
+
+.products .images .sangfor img {
+    width: 280px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    padding: 35px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+} 
+
+footer h6 {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer .social-icons,
+footer .copyright,
+footer .footer-navigation {
+    padding: 10px 0;
+}
+
+footer .social-icons i {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer .social-icons i:hover {
+    color: #e1140a;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+}
+
+footer .footer-navigation a {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer .footer-navigation a:hover {
+    color: #e1140a;
+} 
+
+footer .copyright {
+    margin: 14px 0;
+}
+
+
+/* Responsive Design */
+/* Announcement */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .announcement {
+        display: none;
+    }
+}
+
+/* Navbar */
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .navbar-brand .slid-netsystem {
+        display: none;
+    }
+
+    .navbar-brand a {
+        margin: 0 30px 0 0;
+    }
+
+    .navbar-toggler {
+        border: none;
+        font-size: 25px;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem !important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 531px) {
+    .navbar-brand .slid-netsystem {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 0rem !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1135px) {
+    .navbar-brand a {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem !important;
+    }
+}
+
+/* Landing Page */
+@media (min-width: 320px) and (max-width: 768px) {
+    .landing-page {
+        margin-top: 25px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 325px) {
+    .landing-page img {
+        width: 293px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 376px) {
+    .landing-page img {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+    .landing-page img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 650px) {
+    .landing-page img {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+    .landing-page img {
+        width: 530px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 801px) {
+    .landing-page img {
+        width: 690px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 992px) {
+    .landing-page img {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1025px) {
+    .landing-page img {
+        width: 930px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .landing-page img {
+        width: 940px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1390px) {
+    .landing-page img {
+        width: 1100px;
+    }
+}
+
+@media (min-width: 1390px) and (max-width: 1400px) {
+    .landing-page img {
+        width: 1100px;
+    }
+}
+
+/* Products */
+@media (min-width: 320px) and (max-width: 426px) {
+.products .images {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+}
+
+.products .images .hp img {
+    /* width: 70px;  */
+    width: 50px;
+}
+
+.products .images .asus img,
+.products .images .lenovo img,
+.products .images .acer img {
+    width: 80px;
+    /* width: 100px; */
+}
+
+.products .images .dell img,
+.products .images .huawei img,
+.products .images .huawei img,
+.products .images .aruba img,
+.products .images .tplink img,
+.products .images .apc img,
+.products .images .eaton img,
+.products .images .epson img,
+.products .images .brother img,
+.products .images .canon img,
+.products .images .fujitsu img,
+.products .images .zebra img,
+.products .images .jabra img,
+.products .images .poly img,
+.products .images .checkpoint img {
+    width: 90px;
+}
+
+.products .images .msi img,
+.products .images .adobe img,
+.products .images .hewlett img,
+.products .images .d-link img,
+.products .images .vertiv img,
+.products .images .delta img {
+    width: 90px;
+} 
+
+.products .images .apple img,
+.products .images .cisco img,
+.products .images .logitech img,
+.products .images .lg img,
+.products .images .trellix img,
+.products .images .ridge img {
+    width: 90px;
+}
+
+.products .images .microsoft img,
+.products .images .chargeups img,
+.products .images .datalogic img,
+.products .images .ncomputing img ,
+.products .images .autodesk img,
+.products .images .bricscad img,
+.products .images .zwcad img,
+.products .images .watchguard img {
+    width: 100px;
+}
+
+.products .images .lumion img {
+    width: 90px;
+}
+
+.products .images .samsung img,
+.products .images .kingston img,
+.products .images .seagate img,
+.products .images .westerndigital img,
+.products .images .hikvision img,
+.products .images .vmware img,
+.products .images .veamm img,
+.products .images .arcserve img,
+.products .images .nutanix img,
+.products .images .sonicwall img,
+.products .images .fortinet img,
+.products .images .sophos img,
+.products .images .filewave img,
+.products .images .skyhigh img,
+.products .images .paloalto img {
+    width: 90px;
+}
+
+.products .images .sangfor img {
+    width: 90px;
+}
+
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 100px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 120px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 120px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 120px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 120px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 120px;
+    }
+    
+    .products .images .sangfor img {
+        width: 120px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 100px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 120px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 120px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 120px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 120px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 120px;
+    }
+    
+    .products .images .sangfor img {
+        width: 120px;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1301px) {
+
+    .products .images {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 20px;
+    }
+    
+    .products .images .hp img {
+        width: 70px;
+    }
+    
+    .products .images .asus img,
+    .products .images .lenovo img,
+    .products .images .acer img {
+        width: 120px;
+    }
+    
+    .products .images .dell img,
+    .products .images .huawei img,
+    .products .images .huawei img,
+    .products .images .aruba img,
+    .products .images .tplink img,
+    .products .images .apc img,
+    .products .images .eaton img,
+    .products .images .epson img,
+    .products .images .brother img,
+    .products .images .canon img,
+    .products .images .fujitsu img,
+    .products .images .zebra img,
+    .products .images .jabra img,
+    .products .images .poly img,
+    .products .images .checkpoint img {
+        width: 130px;
+    }
+    
+    .products .images .msi img,
+    .products .images .adobe img,
+    .products .images .hewlett img,
+    .products .images .d-link img,
+    .products .images .vertiv img,
+    .products .images .delta img {
+        width: 130px;
+    } 
+    
+    .products .images .apple img,
+    .products .images .cisco img,
+    .products .images .logitech img,
+    .products .images .lg img,
+    .products .images .trellix img,
+    .products .images .ridge img {
+        width: 130px;
+    }
+    
+    .products .images .microsoft img,
+    .products .images .chargeups img,
+    .products .images .datalogic img,
+    .products .images .ncomputing img ,
+    .products .images .autodesk img,
+    .products .images .bricscad img,
+    .products .images .zwcad img,
+    .products .images .watchguard img {
+        width: 130px;
+    }
+    
+    .products .images .lumion img {
+        width: 130px;
+    }
+    
+    .products .images .samsung img,
+    .products .images .kingston img,
+    .products .images .seagate img,
+    .products .images .westerndigital img,
+    .products .images .hikvision img,
+    .products .images .vmware img,
+    .products .images .veamm img,
+    .products .images .arcserve img,
+    .products .images .nutanix img,
+    .products .images .sonicwall img,
+    .products .images .fortinet img,
+    .products .images .sophos img,
+    .products .images .filewave img,
+    .products .images .skyhigh img,
+    .products .images .paloalto img {
+        width: 130px;
+    }
+    
+    .products .images .sangfor img {
+        width: 130px;
+    }
+    
+}
+
+/* Footer */
+@media (min-width: 320px) and (max-width: 426px) {
+    footer {
+        padding: 40px 0;
+    }
+    
+    footer .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer h5 {
+        font-size: 14px;
+    } 
+    
+    footer h6 {
+        font-size: 12px;
+    }
+    
+    footer .social-icons,
+    footer .copyright,
+    footer .footer-navigation {
+        padding: 10px 0;
+    }
+    
+    footer .social-icons i {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0 10px;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    
+    footer .social-icons a {
+        text-decoration: none;
+    }
+    
+    footer .footer-navigation a {
+        font-size: 12px;
+        color: #ffffff;
+        margin: 0 4px;
+        text-decoration: none;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    footer .copyright {
+        margin: 14px 0;
+    }
+
+}

@@ -271,6 +271,17 @@
     color: #ffffff;
 }
 
+/* SLID about */
+.slid-about {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/slid-about.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
 /* About Vision */
 .about-vision {
     background-color: #ffffff;

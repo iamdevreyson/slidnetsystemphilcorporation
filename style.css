@@ -213,8 +213,7 @@
     display: flex;
     justify-content: center;
     padding: 10rem 10rem 8rem;
-    border: 1px solid #000000;
-    background-image: url(/assets/aboutus.jpg);
+    background-image: url(./assets/aboutus.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #0000006e;
